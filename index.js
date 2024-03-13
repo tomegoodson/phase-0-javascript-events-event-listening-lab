@@ -6,8 +6,6 @@ function addingEventListener() {
       });
     }
   }
-  
-  // Ensure that addingEventListener gets called when the document is fully loaded
   document.addEventListener('DOMContentLoaded', (event) => {
     addingEventListener();
   });
